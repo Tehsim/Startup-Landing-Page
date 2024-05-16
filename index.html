@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/b35e538739.js" crossorigin="anonymous"></script>
+
+    <title>StartupHut</title>
+    <style>
+        header {
+            width: 1350px;
+            height: 600px;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <header class="bg-cover bg-no-repeat" style="background-image: url('/images/bg.png')">
+        <nav class="container mx-auto flex items-center justify-between p-6">
+            <span class="text-2xl font-bold text-black pl-6">StartupHut</span>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 hover:text-gray-900 pl-20">Home</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Product</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Pricing</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Contact</a>
+            </div>
+            <div class="flex-grow"></div>
+            <i class="fa fa-bars text-gray-700 text-2xl"></i>
+        </nav>
+        <section>
+            <p class="text-black text-6xl font-extrabold pl-20 mt-20">EMPOWER <br> YOUR BUSINESS</p>
+            <p class="text-lg pt-4 pb-3 pl-20">We know how Startups  scale from one <br> Desk to a thousands of Desks</p>
+            <button class="ml-20 px-9  rounded-full border-transparent text-white btn bg-orange-600">Get Quote Now</button>
+            <button class="ml-2 px-9 mb-8 rounded-full border-cyan-500 text-cyan-500 btn btn-outline">Learn More</button>
+        </section>
+        <section class="flex ">
+            <div class="bg-white ml-20 mr-8 p-8"> 
+                <i class="fa fa-briefcase py-1 fa-2x" aria-hidden="true"></i>
+                <h1 class="text-black text-xl font-bold py-1">Digital Marketing</h1>
+                <p class="text-current text-xs py-1 ">
+                    We focus on ergonomics and <br>meeting you where you work. 
+                </p>
+            </div>
+            <div class="bg-white mr-8  p-8"> 
+                <i class="fa fa-university fa-2x" aria-hidden="true"></i>
+                <h1 class="text-black text-xl font-bold py-1">National top 50 firms</h1>
+                <p class="text-current text-xs py-1 ">
+                    Just type what's on your mind <br>and we'll get you there. 
+                </p>
+            </div>
+            <div class="bg-cyan-500 text-white  p-8"> 
+                <i class="fa fa-list-alt fa-2x" aria-hidden="true"></i>
+                <h1 class="text-xl font-bold py-1 ">Digital Marketing</h1>
+                <p class="text-xs py-1 ">
+                    the quick fox jumps over the <br>lazy dog
+                </p>
+            </div>
+        </section>
+    </header>
 </body>
 </html>
